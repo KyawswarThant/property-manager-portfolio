@@ -2,7 +2,13 @@
 import { articles } from "../../data/articles";
 import { notFound } from "next/navigation";
 
-export default function CardDetailPage({ params }: { params: { id: string } }) {
+type Props = {
+  params: {
+    id: string;
+  };
+};
+
+export default function CardDetailPage({ params }: Props) {
   const card = articles[Number(params.id)];
 
   if (!card) return notFound();
