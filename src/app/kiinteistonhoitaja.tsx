@@ -1,10 +1,10 @@
-import Articles from "./articles/page";
+import CardList from "./articles/card-list";
 import { articles } from "./data/articles";
 
 export default function Kiinteistonhoitaja() {
   return (
     <>
-      <Articles items={articles} />
+      <CardList items={articles} />
     </>
   );
 }
