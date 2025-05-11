@@ -3,7 +3,7 @@ import { CardItem } from "./article-items";
 export const articles: CardItem[] = [
   {
     title: "Lämmitys Jarjestelmaa",
-    description: "Find peace and adventure in the hills.",
+    description: "Lämmonjakohuonessa kiinteistönhoitaja pitää tarkistaa...",
     article: 
       `Lämmonjakohuonessa kiinteistönhoitaja pitää tarkistaa paineita ja lämpötiloja.
       Kaukolämpö menoveden ja paluuveden paine pitää olla eri. Jos se on sama, se voi olla mudanerotin tukossa.
@@ -15,14 +15,14 @@ export const articles: CardItem[] = [
   },
   {
     title: "WC-vuotto",
-    description: "WC-vuotto voi johtua useista syistä",
+    description: "WC-vuotto voi johtua useista syistä...",
     article: ``,
     image: "/IDO59.png",
     buttonText: "lisää",
   },
   {
     title: "Hana huolto(säätöosan vaihto)",
-    description: "Discover the urban charm.",
+    description: "Kun hana vuotaa poresuuttimesta vivun ollessa suljettuna...",
     article: 
       `Kun hana vuotaa poresuuttimesta vivun ollessa suljettuna.\n
       Sulje vedentulo hanalle.\n
