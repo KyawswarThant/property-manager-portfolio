@@ -10,6 +10,7 @@ export default function Header() {
         <nav className="space-x-4">
           <Link href="/profile" className="text-white">Minä</Link>
           <Link href="/contact" className="text-white">Yhteystiedot</Link>
+          <Link href="/experience" className="text-white">Kokemus</Link>
         </nav>
       </div>
     </div>
