@@ -21,7 +21,7 @@ const ArcticleList: React.FC<CardListProps> = ({ items }) => {
               alt={`Card ${i + 1}`}
             />
             <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+              <h3 className="text-xl article-title font-semibold mb-2">{item.title}</h3>
               <p className="text-gray-600 mb-4">{item.description}</p>
               <button className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition">
                 {item.buttonText}
@@ -30,6 +30,11 @@ const ArcticleList: React.FC<CardListProps> = ({ items }) => {
           </div>
         </Link>
       ))}
+      {/* <ul>
+        {works.map((item, i) => (
+          <li key={i}>{item.title}</li>
+        ))}
+      </ul> */}
     </div>
   );
 };
